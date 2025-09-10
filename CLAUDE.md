@@ -17,6 +17,18 @@ The project provides three deck variants:
 - **Regional VC Deck** (15 slides) - Optimized for European investors with capital efficiency focus
 - **YC Deck** (10 slides) - Ultra-concise Silicon Valley style with growth metrics focus
 
+## Repository Structure
+
+### Branches and Releases
+- **main branch**: Active development for Pinka-specific implementation
+- **template-stable branch**: Clean template with TaskFlow example for other startups
+- **v1.0.0 tag**: Stable release of the template generator
+
+### Version Strategy
+- Use `main` branch for Pinka customizations
+- Template users should clone from `template-stable` or `v1.0.0` tag
+- See [template branch README](https://github.com/pinkainc/pitch-deck/blob/template-stable/TEMPLATE_USAGE.md) for template usage
+
 ## Development Commands
 
 ### Initial Setup
@@ -24,8 +36,13 @@ The project provides three deck variants:
 # Install dependencies
 npm install
 
-# Start development server
+# Start development server (defaults to master deck)
 npm run dev
+
+# Start specific deck variant
+npm run dev -- slides/deck-master.md    # 20-slide version
+npm run dev -- slides/deck-regional.md  # 15-slide version  
+npm run dev -- slides/deck-yc.md        # 10-slide version
 ```
 
 ### Building and Exporting Presentations
