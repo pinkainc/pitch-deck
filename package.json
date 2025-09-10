@@ -1,0 +1,35 @@
+{
+  "name": "@pinkainc/pitch-deck-generator",
+  "version": "1.0.0",
+  "description": "Open-source pitch deck generator for startups",
+  "keywords": ["pitch-deck", "startup", "vc", "slidev", "presentation"],
+  "homepage": "https://github.com/pinkainc/pitch-deck",
+  "bugs": "https://github.com/pinkainc/pitch-deck/issues",
+  "license": "MIT",
+  "author": "Pinka Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinkainc/pitch-deck.git"
+  },
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "export:all": "npm run export:master && npm run export:regional && npm run export:yc",
+    "export:master": "slidev export slides/deck-master.md",
+    "export:regional": "slidev export slides/deck-regional.md",
+    "export:yc": "slidev export slides/deck-yc.md",
+    "preview": "slidev preview",
+    "validate": "node scripts/validate.js",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "chart.js": "^4.4.0",
+    "d3": "^7.8.0",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "latest"
+  }
+}

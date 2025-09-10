@@ -1,0 +1,214 @@
+# data/company.yaml
+# This is a complete working example for a fictional startup
+# Fork this repo and replace with your own data
+
+company:
+  name: "TaskFlow"
+  tagline:
+    hr: "Automatizacija zadataka za male timove"
+    en: "Task automation for small teams"
+  location: "Zagreb, Croatia"
+  website: "www.taskflow.example"
+  email: "pitch@taskflow.example"
+  phone: "+385 91 000 0000"
+  founded: "2023"
+  industry: "B2B SaaS"
+
+problem:
+  statement:
+    hr: "Mali timovi gube 15 sati tjedno na repetitivne zadatke"
+    en: "Small teams waste 15 hours weekly on repetitive tasks"
+  affected_people: 500000
+  cost_per_person: 300
+  frequency: "weekly"
+  current_solutions:
+    - name: "Manual tracking"
+      why_fails: "Time consuming, error prone"
+    - name: "Enterprise tools"
+      why_fails: "Too complex, too expensive"
+    - name: "Spreadsheets"
+      why_fails: "Not scalable, no automation"
+
+solution:
+  description:
+    hr: "No-code platforma za automatizaciju radnih procesa"
+    en: "No-code platform for workflow automation"
+  features:
+    - name:
+        hr: "Visual Builder"
+        en: "Visual Builder"
+      benefit:
+        hr: "Kreirajte workflow u minutama"
+        en: "Create workflows in minutes"
+    - name:
+        hr: "100+ integracija"
+        en: "100+ integrations"
+      benefit:
+        hr: "Spojite sve vaše alate"
+        en: "Connect all your tools"
+    - name:
+        hr: "AI asistent"
+        en: "AI assistant"
+      benefit:
+        hr: "Automatske preporuke optimizacije"
+        en: "Automatic optimization suggestions"
+  status: "Beta"
+  tech_stack: "Vue.js, Node.js, PostgreSQL, Docker"
+  demo_url: "demo.taskflow.example"
+
+market:
+  tam: 5000000000  # €5B
+  sam: 500000000   # €500M
+  som: 50000000    # €50M
+  growth_rate: 28
+  timing_why:
+    hr: "Remote rad povećao potrebu za automatizacijom"
+    en: "Remote work increased automation needs"
+  segments:
+    - "Digital agencies"
+    - "Startups (10-50 employees)"
+    - "Consultancies"
+
+business_model:
+  revenue_model: "SaaS Subscription"
+  pricing_tiers:
+    - name: "Starter"
+      price: 29
+      users: 5
+    - name: "Team"
+      price: 99
+      users: 20
+    - name: "Business"
+      price: 299
+      users: "unlimited"
+  unit_economics:
+    cac: 150
+    ltv: 1800
+    ltv_cac_ratio: 12
+    gross_margin: 82
+    payback_months: 3
+    churn_monthly: 2.5
+
+traction:
+  metrics:
+    users: 2500
+    paying_customers: 125
+    mrr: 8750
+    arr: 105000
+    growth_rate_monthly: 22
+    nps: 68
+  milestones:
+    - "Launched private beta (Month 1)"
+    - "First paying customer (Month 2)"
+    - "€5k MRR (Month 4)"
+    - "100 customers (Month 6)"
+  customers:
+    - "TechStartup Ltd"
+    - "Digital Agency X"
+    - "Consulting Group Y"
+  testimonials:
+    - customer: "Ana Novak, CEO"
+      company: "TechStartup Ltd"
+      quote:
+        hr: "TaskFlow nam je uštedio 20 sati tjedno!"
+        en: "TaskFlow saved us 20 hours per week!"
+
+team:
+  founders:
+    - name: "Marko Horvat"
+      role: "CEO"
+      background: "Ex-Infobip, 10y product management"
+      linkedin: "linkedin.com/in/example"
+      education: "FER Zagreb"
+    - name: "Ana Kovač"
+      role: "CTO"
+      background: "Ex-Rimac, Full-stack engineer"
+      linkedin: "linkedin.com/in/example"
+      education: "PMF Zagreb"
+  employees: 5
+  advisors:
+    - name: "Ivan Mrvoš"
+      credential: "Founder of Include (exited), Angel investor"
+    - name: "Petra Novak"
+      credential: "VP Sales at Productive"
+
+financial:
+  runway_months: 8
+  burn_rate_monthly: 25000
+  revenue_last_month: 7200
+  revenue_this_month: 8750
+  revenue_projection_next: 10700
+  
+  projections_3y:
+    year1: 210000
+    year2: 850000
+    year3: 2400000
+  
+  previous_funding:
+    - round: "Pre-seed"
+      amount: 150000
+      investors: ["CRANE", "Angel investors"]
+      date: "2023-06"
+
+funding:
+  round: "Seed"
+  amount_seeking: 500000
+  valuation: 2500000
+  equity_offered: 20
+  use_of_funds:
+    product_development: 35
+    sales_marketing: 40
+    team_expansion: 20
+    operations: 5
+  milestones_with_funding:
+    - "Scale to 1000 customers"
+    - "€100k MRR"
+    - "Launch in 3 new markets"
+    - "Mobile app release"
+  next_round:
+    timing: "18 months"
+    target: "Series A - €2-3M"
+
+competition:
+  competitors:
+    - name: "Zapier"
+      strengths: "Market leader, many integrations"
+      weaknesses: "Expensive, complex for simple tasks"
+      pricing: "$20-100/month"
+    - name: "Make (Integromat)"
+      strengths: "Powerful, visual"
+      weaknesses: "Steep learning curve"
+      pricing: "$9-30/month"
+    - name: "n8n"
+      strengths: "Open source option"
+      weaknesses: "Requires technical knowledge"
+      pricing: "Free self-hosted"
+  competitive_advantages:
+    - "Designed for non-technical users"
+    - "AI-powered optimization"
+    - "Local presence and support"
+    - "50% cheaper than alternatives"
+    - "5-minute setup vs 2-hour average"
+
+go_to_market:
+  channels:
+    - channel: "Content Marketing"
+      cac: 100
+      share: 40
+    - channel: "Product-led growth"
+      cac: 50
+      share: 30
+    - channel: "Direct Sales"
+      cac: 500
+      share: 20
+    - channel: "Partnerships"
+      cac: 200
+      share: 10
+  partnerships:
+    - "Local SaaS companies"
+    - "Digital agencies"
+    - "Business consultants"
+  expansion_plan:
+    phase1: "Croatia & Slovenia (Year 1)"
+    phase2: "CEE Region (Year 2)"
+    phase3: "Western Europe (Year 3)"
