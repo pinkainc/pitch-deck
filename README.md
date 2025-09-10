@@ -46,6 +46,14 @@ Creating a compelling pitch deck is crucial for startup success, but it's time-c
 - **PDF export** - Investor-ready outputs
 - **Responsive** - Works on all devices
 
+## 🎯 Using as a Template?
+
+If you want to use this as a template for your own startup:
+- Use the `template-stable` branch: `git clone --branch template-stable https://github.com/pinkainc/pitch-deck.git`
+- Or use the `v1.0.0` release tag: `git clone --branch v1.0.0 https://github.com/pinkainc/pitch-deck.git`
+
+See [TEMPLATE_USAGE.md](https://github.com/pinkainc/pitch-deck/blob/template-stable/TEMPLATE_USAGE.md) on the template-stable branch for detailed instructions.
+
 ## 🚀 Quick Start
 
 ### Prerequisites
